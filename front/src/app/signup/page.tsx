@@ -54,7 +54,7 @@ export default function Login(){
             backdrop: `rgba(0, 0, 0, 0.5)`
           });
           Cookies.set("token", response.token)
-          setToken(Cookies.get("token") || null);
+            setToken(Cookies.get("token") || null);
           router.push("/home");
         }else{
             Swal.fire({
