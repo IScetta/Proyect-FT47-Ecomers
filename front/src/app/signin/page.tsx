@@ -59,7 +59,7 @@ export default function Register(){
             });
             setTimeout(()=>{
                 router.push("/signup");
-            },"2000")
+            },2000)
             
 
 
